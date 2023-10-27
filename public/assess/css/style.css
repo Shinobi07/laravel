@@ -1,0 +1,122 @@
+.header {
+  background-color: #2d80d2;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 99;
+}
+
+.header-text {
+  margin: 0%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-text {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.nav {
+  height: 100vh;
+  overflow: auto;
+  position: fixed;
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none !important;
+  color: aliceblue !important;
+}
+
+a:hover {
+  color: black !important;
+}
+
+main {
+  padding-top: 50px;
+}
+
+.main-field {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.main {
+  position: absolute;
+  right: 0%;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #ffffff;
+  background-image: none;
+  flex: 1;
+  padding: 0 .5em;
+  color: #000000;
+  /* cursor:pointer;
+   font-size: 1em;
+   font-family: 'Open Sans', sans-serif; */
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  /* height: 2em; */
+  line-height: 2;
+  background: #ffffff;
+  overflow: hidden;
+  border: #dee2e6 1px solid;
+  border-radius: .25em;
+}
+
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #feffff;
+  cursor: pointer;
+  pointer-events: none;
+  transition: .25s all ease;
+}
+
+.height {
+  height: 150px;
+}
+
+.header-bar {
+  height: 26px;
+  width: 100vw;
+  background-color: #174891;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-btn {
+  font-size: 1em !important;
+}
+
+
+
+.link {
+  color: #000000 !important;
+}

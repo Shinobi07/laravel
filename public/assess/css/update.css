@@ -1,0 +1,340 @@
+.header {
+  background-color: #2d80d2;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 99;
+}
+
+.header-text {
+  margin: 0%;
+}
+
+.header-text {
+  font-size: 15px;
+  margin: -7px;
+  text-align: center;
+  color: #e6e6fa;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #FFFFCC;
+}
+
+.update-table {
+  margin: auto;
+  font-size: 12px;
+  width: 50%;
+  border: solid 1px;
+  text-align: center;
+}
+
+.detail-table {
+  margin: auto;
+  font-size: 10px;
+  width: 80%;
+  border: solid 1px;
+  text-align: center;
+  min-width: 1046px;
+}
+
+.update-main {
+  margin-top: 50px;
+}
+
+.note {
+  width: 40%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.note textarea {
+  margin-top: -16px;
+}
+
+
+
+.cp_tab *,
+.cp_tab *:before,
+.cp_tab *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cp_tab {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.cp_tab>input[type='radio'] {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  background: none;
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+.cp_tab .cp_tabpanel {
+  display: none;
+}
+
+.cp_tab>input:first-child:checked~.cp_tabpanels>.cp_tabpanel:first-child,
+.cp_tab>input:nth-child(3):checked~.cp_tabpanels>.cp_tabpanel:nth-child(2),
+.cp_tab>input:nth-child(5):checked~.cp_tabpanels>.cp_tabpanel:nth-child(3),
+.cp_tab>input:nth-child(7):checked~.cp_tabpanels>.cp_tabpanel:nth-child(4),
+.cp_tab>input:nth-child(9):checked~.cp_tabpanels>.cp_tabpanel:nth-child(5),
+.cp_tab>input:nth-child(11):checked~.cp_tabpanels>.cp_tabpanel:nth-child(6),
+.cp_tab>input:nth-child(13):checked~.cp_tabpanels>.cp_tabpanel:nth-child(7),
+.cp_tab>input:nth-child(15):checked~.cp_tabpanels>.cp_tabpanel:nth-child(8) {
+  display: block;
+}
+
+.cp_tab>label {
+  position: relative;
+  display: inline-block;
+  font-size: 13px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-bottom: 0;
+}
+
+.cp_tab>label:hover,
+.cp_tab>input:focus+label {
+  color: #999999;
+}
+
+.cp_tab>input:checked+label {
+  margin-bottom: -1px;
+  border-color: #999999;
+  border-bottom: 1px solid #ffffff;
+  /*�w�i�F�Ɠ���*/
+  border-radius: 6px 6px 0 0;
+}
+
+.cp_tab .cp_tabpanel {
+  /*	padding: 0.5em 1em;*/
+  padding: 0;
+  border-top: 1px solid #999999;
+}
+
+@media (max-width: 480px) {
+  .cp_tab {
+    width: 100%;
+    font-size: 0.8em;
+  }
+
+  .cp_tab label {
+    padding: 0.5em;
+  }
+}
+
+.iframe {
+  height: 100vh;
+}
+
+.detail-re {
+  font-size: 12px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.detail-re-color {
+  background-color: #FFFFCC;
+  width: 40%;
+}
+
+.detail-re-we {
+  width: 80%;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.detail-re input {
+  width: 100%;
+}
+
+.select select {
+  float: left;
+}
+
+#detail-la {
+  font-size: 12px;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.orange {
+  background-color: #ff7f50;
+}
+
+.pink {
+  background-color: #ffe4e1;
+}
+
+.gray {
+  background-color: #808080;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.sky_blue {
+  background-color: #87cefa;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.light_yellow {
+  background-color: #fafad2;
+}
+
+.blue {
+  background-color: #009966;
+}
+
+.light_gray {
+  background-color: #e6e6fa;
+}
+
+.gold {
+  background-color: #FF9900;
+}
+
+.light_pink {
+  background-color: #ffe4e1;
+}
+
+.brown {
+  background-color: #8b4513;
+}
+
+.datail-btn {
+  font-size: 13px;
+  padding: 6px;
+  height: 30px;
+  border: solid 1px #767676;
+  border-radius: 4px;
+}
+
+.in {
+  width: 45px;
+}
+
+.detail-la1 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.detail-from {
+  display: flex;
+  align-items: center;
+}
+
+.datail-btn a {
+  text-decoration: none;
+  color: gray;
+}
+
+.new {
+  width: 30px;
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "PingFang TC", "Heiti TC", 微軟正黑體, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.split-g {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.split__left {
+  width: 70%;
+  background-color: #ffffff;
+}
+
+.split__right {
+  flex: 1;
+  background-color: #ffffff;
+}
+
+.split__bar {
+  background-color: #555555;
+  width: 5px;
+  height: 100vh;
+  cursor: col-resize;
+}
+
+.req-g {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.req__left {
+  width: 15%;
+  background-color: #ffffff;
+}
+
+.req__right {
+  flex: 1;
+  background-color: #ffffff;
+}
+
+.req__bar {
+  background-color: #555555;
+  width: 5px;
+  height: 100vh;
+  cursor: col-resize;
+}
+
+#renewalScreen {
+  display: none;
+}
+
+#dis_b {
+  display: block;
+}
+
+.register_btn {
+  border: solid 1px;
+  background-color: lightgrey;
+  font-size: 13px;
+}

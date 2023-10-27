@@ -1,0 +1,42 @@
+.photo {
+    width: 200px;
+    height: 250px;
+    border: solid 1px black;
+    margin: 30px;
+}
+
+.photo_btn_gr {
+    display: flex;
+    justify-content: space-around;
+    width: 190px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.img_sc {
+    flex-wrap: wrap;
+}
+
+.register_btn {
+    border: solid 1px;
+    background-color: #f9f7f7;
+}
+
+.register_btn:hover {
+    background-color: #cecece;
+}
+
+.good {
+    background-color: #fffacd;
+    color: black;
+}
+
+.bad {
+    background-color: red;
+}
